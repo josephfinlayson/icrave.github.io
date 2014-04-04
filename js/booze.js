@@ -52,6 +52,20 @@ $(document).on("click",".listing", function(event) {
 });
 
 
+$(document).on("touchend",".listing", function(event) {
+	$(this).toggleClass('craved');
+	Math.floor(Math.random() * 10)
+	var num = $(this).data('num');
+	num = num +1
+	var a = $('#row'+num);
+	a.fadeOut(400, function(){
+		b=replace.pop();
+		a.after( $(b).fadeIn('fast') );
+		a.remove();
+	});
+});
+
+
 
 });
 
