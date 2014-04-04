@@ -1,6 +1,6 @@
 .bs-docs-masthead, .bs-docs-header {
 	position: relative;
-	padding: 30px 15px;
+	padding: 60px 15px;
 	color: #cdbfe3;
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0,0,0,.1);
@@ -39,3 +39,30 @@ border: 1px solid #cdbfe3;
 	padding: 10px
 }
 
+.padding-top {
+	padding-top:0em;
+}
+
+.listing {
+	background-color: transparent;
+	border: 1px solid #cdbfe3;
+	font-weight: 500;
+	color: #fff;
+	background-color: #563d7c;
+	border-radius: 100%;
+	cursor: default;
+	text-align: center;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+}
+
+.distance{
+	display: inline;
+	font-style: italic
+}
+
+.craved {
+	color: gold;
+	background-color: rgb(198, 48, 48);
+}
