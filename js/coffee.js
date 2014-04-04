@@ -12,8 +12,8 @@ $.getJSON('http://api.yelp.com/business_review_search?term=&location=EC3m3bd&yws
    	if (loop_stop !== true) {
    	 	html += " "+
    	 	'<div class="row" id="row'+number+'">'+
-			'<div id="listing-'+number+'" class="col-xs-2"><h1 data-num="'+number+'" class="listing center-block">C</h1></div>'+
-			'<div class="col-xs-10">'+
+			'<div id="listing-'+number+'" class="col-sm-2"><h1 data-num="'+number+'" class="listing center-block">C</h1></div>'+
+			'<div class="col-sm-8">'+
 				'<h3 class="name text-left">'+String(value.name)+'</h3>'+
 				'<p class="description text-left">'+value.reviews[0].text_excerpt+
 				'<span class="distance">'+value.distance.toFixed(2)+'miles away</span></p>'+
@@ -25,7 +25,7 @@ $.getJSON('http://api.yelp.com/business_review_search?term=&location=EC3m3bd&yws
 			replace.push(" "+
 	   	 	'<div class="row" id="row'+number+'">'+
 				'<div id="listing-'+number+'" class="col-sm-2"><h1 data-num="'+number+'" class="listing center-block">C</h1></div>'+
-				'<div class="col-xs-10">'+
+				'<div class="col-sm-8">'+
 					'<h3 class="name text-left">'+String(value.name)+'</h3>'+
 					'<p class="description text-left">'+value.reviews[0].text_excerpt+
 					'<span class="distance">'+value.distance.toFixed(2)+'m</span></p>'+
