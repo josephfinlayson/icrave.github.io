@@ -10,3 +10,29 @@
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
 }
+
+.bs-docs-booticon-lg {
+width: 144px;
+height: 144px;
+font-size: 108px;
+line-height: 140px;
+}
+
+.bs-docs-booticon-outline {
+background-color: transparent;
+border: 1px solid #cdbfe3;
+}
+
+.bs-docs-booticon {
+	display: block;
+	font-weight: 500;
+	color: #fff;
+	background-color: #563d7c;
+	border-radius: 15%;
+	cursor: default;
+	text-align: center;
+}
+
+.icon-spacing {
+	padding: 10px
+}
