@@ -50,6 +50,17 @@ $(document).on("click",".listing", function(event) {
 
 });
 
+$(document).on("tap",".listing", function(event) {
+	$(this).toggleClass('craved');
+	Math.floor(Math.random() * 10)
+	var num = $(this).data('num');
+	num = num +1
+	var a = $('#row'+num);
+	a.after(replace.pop());
+	a.remove();
+	console.log(a);
+
+});
 
 
 });
