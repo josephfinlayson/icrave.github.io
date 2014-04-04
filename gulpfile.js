@@ -58,7 +58,8 @@ gulp.task('csslint', function(){
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){
-  gulp.src('./_sass/nkd.scss')
+
+  gulp.src('./_sass/crave.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass({loadPath: ['./_sass/'], style: "compact"}))
           .pipe(prefix())
