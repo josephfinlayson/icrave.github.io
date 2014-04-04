@@ -4,7 +4,7 @@ number = 0
 loop_stop = false;
 $(document).ready(function() {
 	
-$.getJSON('http://api.yelp.com/business_review_search?term=&location=EC3m3bd&ywsid=Cs40U808hHCR8WfUA_lhFw&category=restaurants&callback=?', {}, function(json, textStatus) {
+$.getJSON('http://api.yelp.com/business_review_search?term=&location=EC3m3bd&ywsid=Cs40U808hHCR8WfUA_lhFw&category=coffee&callback=?', {}, function(json, textStatus) {
    console.log(json);
    $.each(json.businesses, function(index, value) {
    	number++;
@@ -49,7 +49,6 @@ $(document).on("click",".listing", function(event) {
 	console.log(a);
 
 });
-
 
 
 });
