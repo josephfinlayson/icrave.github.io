@@ -59,11 +59,15 @@ border: 1px solid #cdbfe3;
 
 .distance{
 	display: inline;
-	font-style: italic
+	font-style: italic;
 	padding-left: 4em;
 }
 
 .craved {
 	color: gold;
 	background-color: rgb(198, 48, 48);
+}
+
+h1 { 
+	cursor: pointer; 
 }
