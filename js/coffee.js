@@ -44,10 +44,13 @@ $(document).on("click",".listing", function(event) {
 	var num = $(this).data('num');
 	num = num +1
 	var a = $('#row'+num);
-	a.after(replace.pop());
-	a.remove();
-	console.log(a);
+	a.fadeOut(400, function(){
+		b=replace.pop();
+		a.after( $(b).fadeIn('fast') );
+		a.remove();
 
+	});
+	console.log(a);
 });
 
 
