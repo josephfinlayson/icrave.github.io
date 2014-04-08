@@ -1,3 +1,8 @@
+#navbar {
+	display:none;
+	text-transform: capitalize;
+}
+
 .bs-docs-masthead, .bs-docs-header {
 	position: relative;
 	padding: 60px 15px;
@@ -71,4 +76,12 @@ border: 1px solid #cdbfe3;
 
 h1 { 
 	cursor: pointer; 
+}
+
+a.disabled {
+	color:grey;
+
+	&:hover{
+		color: grey;
+	}
 }

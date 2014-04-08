@@ -1,17 +1,31 @@
+--- 
+layout: default 
 ---
-layout: default
----
-<main class="bs-docs-masthead" id="content" role="main">
-  <div class="container">
-    <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline center-block">C</span>
-    <h1>I Crave</h1>
-    
-    <div id="krave icons">
-    <a href="listings_food.html" title=""><i class="fa fa-cutlery fa-4x icon-spacing"></i></a>
-           <a href="listings_coffee.html" title="">
-      <i class="fa fa-coffee fa-4x icon-spacing"></i> </a>
-          <a href="listings_booze.html" title=""> 
-      <i class="fa fa-glass fa-4x icon-spacing"></i></a> 
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">I crave <span id="category"> </span></a>
+        </div>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
-  </div>
+
+
+<main class="bs-docs-masthead" id="content" role="main">
+    <div class="container">
+        <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline center-block">C</span>
+        <h1>I Crave</h1>
+
+        <div id="krave icons" disabled="disabled">
+            <a href="#" title="" id="restaurants" class="category disabled" data-category="restaurants">
+                <i class="fa fa-cutlery fa-4x icon-spacing"></i>
+            </a>
+            <a href="#" title="" id="coffee" class="category disabled">
+                <i class="fa fa-coffee fa-4x icon-spacing" id="coffee" data-category="coffee"></i> 
+            </a>
+            <a href="#" title="" id="bars" class="category disabled" disabled="disabled" data-category="booze">
+                <i class="fa fa-glass fa-4x icon-spacing"></i>
+            </a>
+        </div>
+    </div>
 </main>
