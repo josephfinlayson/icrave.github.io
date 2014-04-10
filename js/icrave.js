@@ -6,7 +6,9 @@ yelp_cats = ["bars", "restaurants", "coffee"]
 html_bits = {}
 var lat, long
     $(document).ready(function() {
-        $('#content').height($(window).height())
+        $('#content').css("min-height", $(window).height() )
+        
+        
         navigator.geolocation.getCurrentPosition(
             function(loc) {
                 lat = loc.coords.latitude
